@@ -27,7 +27,6 @@ alert('digite um curso!')
 
 
 
-
 function alterarStatus() {
 
     let trocarStatus = document.getElementById('inputStatus').value;
@@ -41,3 +40,39 @@ alert('digite um Status!')
     }
     
 }
+
+
+function mudarCorHeader() {
+    
+let cor = document.getElementById('corHeader').value
+document.querySelector('.cabecalho').style.backgroundColor = cor;
+
+}
+
+
+
+
+
+
+function mudarCorNav() {
+
+let cor = document.getElementById('corNav').value
+document.querySelector('.navegacao').style.backgroundColor = cor;
+
+
+
+}
+    
+
+
+
+    function mudarCorSection() {
+
+let cor = document.getElementById('corSection').value
+document.querySelector('.secao').style.backgroundColor = cor;
+
+
+    }
+
+
+    
